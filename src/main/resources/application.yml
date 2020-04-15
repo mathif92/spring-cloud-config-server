@@ -1,0 +1,10 @@
+spring.application.name: config-server
+spring.profiles.active: local
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mathif92/spring-cloud-config-repo.git
+#          username: ${GITLAB_USERNAME}
+#          password: ${GITLAB_PASSWORD}

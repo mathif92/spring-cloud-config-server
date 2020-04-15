@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          basedir: /opt/config-server
+          strictHostKeyChecking: false
